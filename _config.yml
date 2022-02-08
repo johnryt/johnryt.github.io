@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "John Ryter"
 title_separator          : "-"
 name                     : &name "John Ryter"
-description              : &description "PhD Candidate at the Massachusetts Institute of Technology"
+description              : &description "PhD Candidate at MIT"
 url                      : https://johnryt.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "johnryt.github.io"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "John Ryter"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio		   : "PhD candidate at the Massachusetts Institute of Technology"
   cv		   : "https://johnryt.github.io/files/Ryter_CV.pdf"
   location         : "Cambridge, MA"
@@ -336,4 +336,4 @@ compress_html:
   ignore:
     envs: development
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-architect
