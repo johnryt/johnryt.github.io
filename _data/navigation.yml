@@ -12,11 +12,11 @@ main:
 #  - title: "Posters"
 #    url: /posters/
 
-  - title: "Teaching"
-    url: /teaching/
+#  - title: "Teaching"
+#    url: /teaching/
 
-  - title: "Service"
-    url: /service/
+#  - title: "Service"
+#    url: /service/
 
 #  - title: "Awards"
 #    url: /awards/
@@ -24,11 +24,11 @@ main:
   - title: "Blog"
     url: /year-archive/
 
-  - title: "Press"
-    url: /press/
-
-  - title: "Tools"
-    url: /tools/
+#  - title: "Press"
+#    url: /press/
+ 
+#  - title: "Tools"
+#    url: /tools/
 
   - title: "Fun"
     url: /fun/
