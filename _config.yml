@@ -166,27 +166,27 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
+#  teaching:
+#    output: true
+#    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
 #  portfolio:
 #    output: false
 #    permalink: /:collection/:path/
-#  talks:
-#    output: true
-#    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 #  posters:
 #    output: false
 #    permalink: /:collection/:path/
 #  awards:
 #    output: true
 #    permalink: /:collection/:path/
-  service:
-    output: true
-    permalink: /:collection/:path/
+#  service:
+#    output: true
+#    permalink: /:collection/:path/
 #  reviewing:
 #    output: true
 #    permalink: /:collection/:path/
@@ -203,7 +203,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
@@ -214,15 +214,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+#  # _teaching
+#  - scope:
+#      path: ""
+#      type: teaching
+#    values:
+#      layout: single
+#      author_profile: true
+#      share: true
+#      comments: true
   # _publications
   - scope:
       path: ""
